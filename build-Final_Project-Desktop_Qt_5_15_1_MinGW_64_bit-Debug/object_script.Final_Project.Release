@@ -1,0 +1,16 @@
+release/appoinment.o
+release/consultation.o
+release/doctor_mainwindow.o
+release/main.o
+release/mainwindow.o
+release/menu.o
+release/second_page.o
+release/secondpage.o
+release/qrc_resrce.o
+release/moc_appoinment.o
+release/moc_consultation.o
+release/moc_doctor_mainwindow.o
+release/moc_mainwindow.o
+release/moc_menu.o
+release/moc_second_page.o
+release/moc_secondpage.o

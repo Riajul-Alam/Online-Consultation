@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Secondpage</class>
+ <widget class="QDialog" name="Secondpage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1350</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+
+
+
+
+QTableView{
+border:2px solid #8b0000;
+border-bottom-right-radius: 155px;  
+background: transparent;
+font-size: 12px;
+color: black;
+text-align: center;
+font-weight: bold;
+margin: 5px;
+font-family: &quot;Roboto&quot;,sans-serif;
+}
+
+QListView{
+border:2px solid #8b0000;
+border-bottom-left-radius: 105px;  
+background: transparent;
+font-size: 15px;
+color: black;
+text-align: center;
+font-weight: bold;
+margin: 5px;
+font-family: &quot;Roboto&quot;,sans-serif;
+}
+
+
+
+QPushButton{
+color:black;
+font-weight:bold;
+font-size:13px;
+background-color:transparent;
+border:2px solid #8b0000;
+border-radius:15px;
+
+}
+
+
+QPushButton:hover{
+color:white;
+background:#8b0000;
+border:2px solid white;
+border-radius:15px;
+}
+</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>170</y>
+     <width>611</width>
+     <height>461</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>170</y>
+     <width>471</width>
+     <height>321</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>520</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CONSULTATION</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>520</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>APPOINTMENT</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="welcome">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>30</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#welcome{
+    font-size: 50px;
+   color:#1E5639;
+    text-align: center;
+    font-weight: 500;
+    margin: 5px;
+    
+    font-family: Impact, Charcoal, sans-serif;
+}</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>60</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#label{
+    font-size: 25px;
+   color: #e10000 ;
+    text-align: center;
+    font-weight: 500;
+    margin: 5px;
+    
+    font-family: &quot;Courier New&quot;, Courier, monospace;
+}</string>
+   </property>
+   <property name="text">
+    <string>Hello,</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>90</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#label_2{
+    font-size: 16px;
+   color: #e10000 ;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+    
+    font-family: &quot;Courier New&quot;, Courier, monospace;
+}</string>
+   </property>
+   <property name="text">
+    <string>Boost your Bones...</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>90</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#comboBox{
+background: white ;
+border: 2px solid;
+border-bottom-left-radius: 20px;
+border-top-right-radius: 10px;
+font-size: 15px;
+font-family: &quot;Roboto&quot;,sans-serif;
+
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1230</x>
+     <y>10</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sign Out</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

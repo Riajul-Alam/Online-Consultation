@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>consultation</class>
+ <widget class="QDialog" name="consultation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1350</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+QDateEdit{
+
+border:none;
+border-radius:10px;
+color:white;
+background:#8b0000;
+font-family: &quot;Roboto&quot;,sans-serif;
+
+font-size:5px;
+font-weight:lighter;
+
+
+
+border-top-right-radius: 6px;
+border-bottom-right-radius: 30px;
+
+
+
+    font-size: 15px;
+
+    text-align: center;
+
+    margin: 5px;
+  font-family: &quot;Roboto&quot;,sans-serif;
+
+}
+
+QGroupBox{
+border:2px solid #8b0000;
+border-radius:70px;
+
+
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+  font-family: &quot;Roboto&quot;,sans-serif;
+
+
+
+}
+
+QLabel{
+    font-size: 15px;
+   color:#c70000;
+    text-align: center;
+    font-weight: 600;
+    margin: 5px;
+    
+    font-family: &quot;Roboto&quot;,sans-serif;
+}
+
+QLineEdit{
+outline: none;
+   border:none;
+font-family: &quot;Roboto&quot;,sans-serif;
+color: #1a1a1a;
+font-size:15px;
+font-weight: 200;
+font-weight:bold;
+    padding:20px 10px;
+    
+    width: 20%;
+    background: transparent;
+
+}
+
+
+QPushButton{
+color:black;
+font-weight:bold;
+font-size:13px;
+background-color:transparent;
+border:2px solid #8b0000;
+border-radius:15px;
+
+}
+
+QPushButton:hover{
+color:white;
+background:#8b0000;
+border:2px solid white;
+border-radius:15px;
+
+}
+</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BACK</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="d1">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>220</y>
+     <width>571</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>240</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Disease Type :</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>260</y>
+     <width>571</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>360</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Description :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="d2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>360</y>
+     <width>621</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>410</y>
+     <width>571</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>330</y>
+     <width>20</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_4">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>330</y>
+     <width>20</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>450</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ATTACH</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>100</y>
+     <width>481</width>
+     <height>541</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
